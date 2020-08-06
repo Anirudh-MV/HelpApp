@@ -1,0 +1,807 @@
+diff --git a/.gradle/5.6.4/executionHistory/executionHistory.bin b/.gradle/5.6.4/executionHistory/executionHistory.bin
+index be50d99..d06d46c 100644
+Binary files a/.gradle/5.6.4/executionHistory/executionHistory.bin and b/.gradle/5.6.4/executionHistory/executionHistory.bin differ
+diff --git a/.gradle/5.6.4/executionHistory/executionHistory.lock b/.gradle/5.6.4/executionHistory/executionHistory.lock
+index e8dc06c..a62d3cb 100644
+Binary files a/.gradle/5.6.4/executionHistory/executionHistory.lock and b/.gradle/5.6.4/executionHistory/executionHistory.lock differ
+diff --git a/.gradle/5.6.4/fileHashes/fileHashes.bin b/.gradle/5.6.4/fileHashes/fileHashes.bin
+index 098c67f..fc88b0e 100644
+Binary files a/.gradle/5.6.4/fileHashes/fileHashes.bin and b/.gradle/5.6.4/fileHashes/fileHashes.bin differ
+diff --git a/.gradle/5.6.4/fileHashes/fileHashes.lock b/.gradle/5.6.4/fileHashes/fileHashes.lock
+index 13cc50c..3b92df9 100644
+Binary files a/.gradle/5.6.4/fileHashes/fileHashes.lock and b/.gradle/5.6.4/fileHashes/fileHashes.lock differ
+diff --git a/.gradle/buildOutputCleanup/buildOutputCleanup.lock b/.gradle/buildOutputCleanup/buildOutputCleanup.lock
+index 17889b7..87e5713 100644
+Binary files a/.gradle/buildOutputCleanup/buildOutputCleanup.lock and b/.gradle/buildOutputCleanup/buildOutputCleanup.lock differ
+diff --git a/.idea/libraries/Gradle__androidx_activity_activity_1_1_0_aar.xml b/.idea/libraries/Gradle__androidx_activity_activity_1_1_0_aar.xml
+index 76fa172..a7dc899 100644
+--- a/.idea/libraries/Gradle__androidx_activity_activity_1_1_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_activity_activity_1_1_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.activity:activity:1.1.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a24a7a6c912246e52b61a8cb65f65eb3/jetified-activity-1.1.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a24a7a6c912246e52b61a8cb65f65eb3/jetified-activity-1.1.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a24a7a6c912246e52b61a8cb65f65eb3/jetified-activity-1.1.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_activity_activity_ktx_1_1_0_aar.xml b/.idea/libraries/Gradle__androidx_activity_activity_ktx_1_1_0_aar.xml
+index a6d512a..ea7e0bd 100644
+--- a/.idea/libraries/Gradle__androidx_activity_activity_ktx_1_1_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_activity_activity_ktx_1_1_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.activity:activity-ktx:1.1.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f60085770aaee67539a6b32b36aef9ef/jetified-activity-ktx-1.1.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f60085770aaee67539a6b32b36aef9ef/jetified-activity-ktx-1.1.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f60085770aaee67539a6b32b36aef9ef/jetified-activity-ktx-1.1.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_aar.xml b/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_aar.xml
+index baf2760..d5a949a 100644
+--- a/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_aar.xml
+@@ -4,6 +4,7 @@
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a8776343fdac874fa977e09d507079eb/appcompat-1.1.0/annotations.zip!/" />
+     </ANNOTATIONS>
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a8776343fdac874fa977e09d507079eb/appcompat-1.1.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a8776343fdac874fa977e09d507079eb/appcompat-1.1.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a8776343fdac874fa977e09d507079eb/appcompat-1.1.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_aar.xml b/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_aar.xml
+index 2bc9f41..4b0cad9 100644
+--- a/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.appcompat:appcompat-resources:1.1.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/db72437fffedc6d6e9a32ec555665f9e/jetified-appcompat-resources-1.1.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/db72437fffedc6d6e9a32ec555665f9e/jetified-appcompat-resources-1.1.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/db72437fffedc6d6e9a32ec555665f9e/jetified-appcompat-resources-1.1.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml b/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml
+index a3cac51..ec1a36f 100644
+--- a/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.arch.core:core-runtime:2.1.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6ba631e2a83457d93ff6835fab260e17/core-runtime-2.1.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6ba631e2a83457d93ff6835fab260e17/core-runtime-2.1.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6ba631e2a83457d93ff6835fab260e17/core-runtime-2.1.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml b/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml
+index ce30796..980c2f9 100644
+--- a/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.cardview:cardview:1.0.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4396c2f11dd7e645d9262d21ecccad75/cardview-1.0.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4396c2f11dd7e645d9262d21ecccad75/cardview-1.0.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4396c2f11dd7e645d9262d21ecccad75/cardview-1.0.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml b/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml
+index 607586b..869aa0f 100644
+--- a/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml
++++ b/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.constraintlayout:constraintlayout:1.1.3@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d38c63deeca963c558fe516b1169310c/constraintlayout-1.1.3/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d38c63deeca963c558fe516b1169310c/constraintlayout-1.1.3/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d38c63deeca963c558fe516b1169310c/constraintlayout-1.1.3/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml b/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml
+index df3edcd..dd6f132 100644
+--- a/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml
+@@ -4,6 +4,7 @@
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/139a7a702d2ebc2a699ac4bc6960f27e/coordinatorlayout-1.1.0/annotations.zip!/" />
+     </ANNOTATIONS>
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/139a7a702d2ebc2a699ac4bc6960f27e/coordinatorlayout-1.1.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/139a7a702d2ebc2a699ac4bc6960f27e/coordinatorlayout-1.1.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/139a7a702d2ebc2a699ac4bc6960f27e/coordinatorlayout-1.1.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_core_core_1_2_0_aar.xml b/.idea/libraries/Gradle__androidx_core_core_1_2_0_aar.xml
+index 8992217..acb5d33 100644
+--- a/.idea/libraries/Gradle__androidx_core_core_1_2_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_core_core_1_2_0_aar.xml
+@@ -4,6 +4,7 @@
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9075dbfaab39e40f8982b36dac1019b6/core-1.2.0/annotations.zip!/" />
+     </ANNOTATIONS>
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9075dbfaab39e40f8982b36dac1019b6/core-1.2.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9075dbfaab39e40f8982b36dac1019b6/core-1.2.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9075dbfaab39e40f8982b36dac1019b6/core-1.2.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_core_core_ktx_1_2_0_aar.xml b/.idea/libraries/Gradle__androidx_core_core_ktx_1_2_0_aar.xml
+index a2070ea..753a344 100644
+--- a/.idea/libraries/Gradle__androidx_core_core_ktx_1_2_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_core_core_ktx_1_2_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.core:core-ktx:1.2.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9ee64b703de7c158c2438fbecadd08f5/jetified-core-ktx-1.2.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9ee64b703de7c158c2438fbecadd08f5/jetified-core-ktx-1.2.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9ee64b703de7c158c2438fbecadd08f5/jetified-core-ktx-1.2.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml b/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml
+index 7fcef19..12086fe 100644
+--- a/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.cursoradapter:cursoradapter:1.0.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/74ba376e5f4f34ef879a2bc253b663b3/cursoradapter-1.0.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/74ba376e5f4f34ef879a2bc253b663b3/cursoradapter-1.0.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/74ba376e5f4f34ef879a2bc253b663b3/cursoradapter-1.0.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml b/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml
+index 3f0dfd6..48e9b4c 100644
+--- a/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.customview:customview:1.0.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/558ffeba563cbd8612355279e1aa2046/customview-1.0.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/558ffeba563cbd8612355279e1aa2046/customview-1.0.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/558ffeba563cbd8612355279e1aa2046/customview-1.0.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_databinding_databinding_adapters_3_6_1_aar.xml b/.idea/libraries/Gradle__androidx_databinding_databinding_adapters_3_6_1_aar.xml
+index f1fff37..a0416b5 100644
+--- a/.idea/libraries/Gradle__androidx_databinding_databinding_adapters_3_6_1_aar.xml
++++ b/.idea/libraries/Gradle__androidx_databinding_databinding_adapters_3_6_1_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.databinding:databinding-adapters:3.6.1@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e4887fba97edce9ac60a7e1b0a23a8b3/databinding-adapters-3.6.1/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e4887fba97edce9ac60a7e1b0a23a8b3/databinding-adapters-3.6.1/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e4887fba97edce9ac60a7e1b0a23a8b3/databinding-adapters-3.6.1/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_databinding_databinding_runtime_3_6_1_aar.xml b/.idea/libraries/Gradle__androidx_databinding_databinding_runtime_3_6_1_aar.xml
+index ee5f382..872ee24 100644
+--- a/.idea/libraries/Gradle__androidx_databinding_databinding_runtime_3_6_1_aar.xml
++++ b/.idea/libraries/Gradle__androidx_databinding_databinding_runtime_3_6_1_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.databinding:databinding-runtime:3.6.1@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/24a596f9e634aca4d3f48b7b4757f5d2/databinding-runtime-3.6.1/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/24a596f9e634aca4d3f48b7b4757f5d2/databinding-runtime-3.6.1/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/24a596f9e634aca4d3f48b7b4757f5d2/databinding-runtime-3.6.1/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_databinding_viewbinding_3_6_1_aar.xml b/.idea/libraries/Gradle__androidx_databinding_viewbinding_3_6_1_aar.xml
+index 56f18af..a555c00 100644
+--- a/.idea/libraries/Gradle__androidx_databinding_viewbinding_3_6_1_aar.xml
++++ b/.idea/libraries/Gradle__androidx_databinding_viewbinding_3_6_1_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.databinding:viewbinding:3.6.1@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fb958fdf5c64fbce135c53c821151f42/jetified-viewbinding-3.6.1/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fb958fdf5c64fbce135c53c821151f42/jetified-viewbinding-3.6.1/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fb958fdf5c64fbce135c53c821151f42/jetified-viewbinding-3.6.1/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_rc01_aar.xml b/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_rc01_aar.xml
+index b420e4b..90b9f52 100644
+--- a/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_rc01_aar.xml
++++ b/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_rc01_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.documentfile:documentfile:1.0.0-rc01@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f74f5200a1700608e2d71836a81efe2a/documentfile-1.0.0-rc01/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f74f5200a1700608e2d71836a81efe2a/documentfile-1.0.0-rc01/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f74f5200a1700608e2d71836a81efe2a/documentfile-1.0.0-rc01/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml b/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml
+index 2d9abc5..9595e59 100644
+--- a/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml
+@@ -4,6 +4,7 @@
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9492c82d98945d6a3560cdf8b6af5799/drawerlayout-1.0.0/annotations.zip!/" />
+     </ANNOTATIONS>
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9492c82d98945d6a3560cdf8b6af5799/drawerlayout-1.0.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9492c82d98945d6a3560cdf8b6af5799/drawerlayout-1.0.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9492c82d98945d6a3560cdf8b6af5799/drawerlayout-1.0.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_fragment_fragment_1_2_4_aar.xml b/.idea/libraries/Gradle__androidx_fragment_fragment_1_2_4_aar.xml
+index da46638..05ef44a 100644
+--- a/.idea/libraries/Gradle__androidx_fragment_fragment_1_2_4_aar.xml
++++ b/.idea/libraries/Gradle__androidx_fragment_fragment_1_2_4_aar.xml
+@@ -4,6 +4,7 @@
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fc41b07f640eee9b979503dce4bd6cae/fragment-1.2.4/annotations.zip!/" />
+     </ANNOTATIONS>
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fc41b07f640eee9b979503dce4bd6cae/fragment-1.2.4/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fc41b07f640eee9b979503dce4bd6cae/fragment-1.2.4/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fc41b07f640eee9b979503dce4bd6cae/fragment-1.2.4/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_fragment_fragment_ktx_1_2_4_aar.xml b/.idea/libraries/Gradle__androidx_fragment_fragment_ktx_1_2_4_aar.xml
+index f8f0156..27a2e9a 100644
+--- a/.idea/libraries/Gradle__androidx_fragment_fragment_ktx_1_2_4_aar.xml
++++ b/.idea/libraries/Gradle__androidx_fragment_fragment_ktx_1_2_4_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.fragment:fragment-ktx:1.2.4@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e1bbd70795e8a8a3288209899f378aaf/jetified-fragment-ktx-1.2.4/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e1bbd70795e8a8a3288209899f378aaf/jetified-fragment-ktx-1.2.4/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e1bbd70795e8a8a3288209899f378aaf/jetified-fragment-ktx-1.2.4/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml b/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml
+index 9a4bdfa..7fd758d 100644
+--- a/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.interpolator:interpolator:1.0.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8ba1861a037181f3766850afe0160a40/interpolator-1.0.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8ba1861a037181f3766850afe0160a40/interpolator-1.0.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8ba1861a037181f3766850afe0160a40/interpolator-1.0.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_rc01_aar.xml b/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_rc01_aar.xml
+index b74e538..eebfee5 100644
+--- a/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_rc01_aar.xml
++++ b/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_rc01_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.legacy:legacy-support-core-utils:1.0.0-rc01@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/01cad4de93c5eac26fa65b3a227ec871/legacy-support-core-utils-1.0.0-rc01/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/01cad4de93c5eac26fa65b3a227ec871/legacy-support-core-utils-1.0.0-rc01/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/01cad4de93c5eac26fa65b3a227ec871/legacy-support-core-utils-1.0.0-rc01/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_extensions_2_2_0_aar.xml b/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_extensions_2_2_0_aar.xml
+index f932860..b1536ad 100644
+--- a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_extensions_2_2_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_extensions_2_2_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.lifecycle:lifecycle-extensions:2.2.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/72f4849b83d53b2571ad8978bcb1b56e/lifecycle-extensions-2.2.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/72f4849b83d53b2571ad8978bcb1b56e/lifecycle-extensions-2.2.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/72f4849b83d53b2571ad8978bcb1b56e/lifecycle-extensions-2.2.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_2_0_aar.xml b/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_2_0_aar.xml
+index bffa742..5b9afdd 100644
+--- a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_2_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_2_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.lifecycle:lifecycle-livedata:2.2.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/abccc1c353bc6ed3d84a5c7c42cea017/lifecycle-livedata-2.2.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/abccc1c353bc6ed3d84a5c7c42cea017/lifecycle-livedata-2.2.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/abccc1c353bc6ed3d84a5c7c42cea017/lifecycle-livedata-2.2.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_2_0_aar.xml b/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_2_0_aar.xml
+index b8e2035..c8649c0 100644
+--- a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_2_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_2_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.2.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/376def708fb6281d6ba3088f080671d7/lifecycle-livedata-core-2.2.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/376def708fb6281d6ba3088f080671d7/lifecycle-livedata-core-2.2.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/376def708fb6281d6ba3088f080671d7/lifecycle-livedata-core-2.2.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_ktx_2_2_0_aar.xml b/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_ktx_2_2_0_aar.xml
+index 5923d8f..6d31c20 100644
+--- a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_ktx_2_2_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_ktx_2_2_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d75caeab24d259cf4a41c633b6c6ae2a/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d75caeab24d259cf4a41c633b6c6ae2a/jetified-lifecycle-livedata-core-ktx-2.2.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d75caeab24d259cf4a41c633b6c6ae2a/jetified-lifecycle-livedata-core-ktx-2.2.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_process_2_2_0_aar.xml b/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_process_2_2_0_aar.xml
+index 231bcfc..93b1ddc 100644
+--- a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_process_2_2_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_process_2_2_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.lifecycle:lifecycle-process:2.2.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/baba86cab54814236486aa2734bd9aab/jetified-lifecycle-process-2.2.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/baba86cab54814236486aa2734bd9aab/jetified-lifecycle-process-2.2.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/baba86cab54814236486aa2734bd9aab/jetified-lifecycle-process-2.2.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_2_0_aar.xml b/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_2_0_aar.xml
+index 46242ac..c1b449a 100644
+--- a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_2_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_2_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.lifecycle:lifecycle-runtime:2.2.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/24d26877d60f9a9cf0f0dd26a87d5445/lifecycle-runtime-2.2.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/24d26877d60f9a9cf0f0dd26a87d5445/lifecycle-runtime-2.2.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/24d26877d60f9a9cf0f0dd26a87d5445/lifecycle-runtime-2.2.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_ktx_2_2_0_aar.xml b/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_ktx_2_2_0_aar.xml
+index c7b4ba4..a46ea5e 100644
+--- a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_ktx_2_2_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_ktx_2_2_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.lifecycle:lifecycle-runtime-ktx:2.2.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c9c36a73c4d92b2af4d18c6e7c9a3cfa/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c9c36a73c4d92b2af4d18c6e7c9a3cfa/jetified-lifecycle-runtime-ktx-2.2.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c9c36a73c4d92b2af4d18c6e7c9a3cfa/jetified-lifecycle-runtime-ktx-2.2.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_service_2_2_0_aar.xml b/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_service_2_2_0_aar.xml
+index 47a4364..79b006f 100644
+--- a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_service_2_2_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_service_2_2_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.lifecycle:lifecycle-service:2.2.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f70602c81b18a67c8c51636dd73c9a9f/jetified-lifecycle-service-2.2.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f70602c81b18a67c8c51636dd73c9a9f/jetified-lifecycle-service-2.2.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f70602c81b18a67c8c51636dd73c9a9f/jetified-lifecycle-service-2.2.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_2_0_aar.xml b/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_2_0_aar.xml
+index dbc3cf4..963f501 100644
+--- a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_2_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_2_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.lifecycle:lifecycle-viewmodel:2.2.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7e4df0cd08aa50f2127ae53aa41238ca/lifecycle-viewmodel-2.2.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7e4df0cd08aa50f2127ae53aa41238ca/lifecycle-viewmodel-2.2.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7e4df0cd08aa50f2127ae53aa41238ca/lifecycle-viewmodel-2.2.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_ktx_2_2_0_aar.xml b/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_ktx_2_2_0_aar.xml
+index ca6e21c..dcf9273 100644
+--- a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_ktx_2_2_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_ktx_2_2_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a1768896b6a622b39e1354a69168da0e/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a1768896b6a622b39e1354a69168da0e/jetified-lifecycle-viewmodel-ktx-2.2.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a1768896b6a622b39e1354a69168da0e/jetified-lifecycle-viewmodel-ktx-2.2.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_2_0_aar.xml b/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_2_0_aar.xml
+index e3c4bd3..9099702 100644
+--- a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_2_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_2_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d29b82594a1639c953ac7a1646b377b0/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d29b82594a1639c953ac7a1646b377b0/jetified-lifecycle-viewmodel-savedstate-2.2.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d29b82594a1639c953ac7a1646b377b0/jetified-lifecycle-viewmodel-savedstate-2.2.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml b/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml
+index c5b0869..a1711ae 100644
+--- a/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.loader:loader:1.0.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e86f0abe5b3458becc57dbbb80920b2a/loader-1.0.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e86f0abe5b3458becc57dbbb80920b2a/loader-1.0.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e86f0abe5b3458becc57dbbb80920b2a/loader-1.0.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_rc01_aar.xml b/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_rc01_aar.xml
+index df1a057..6cafb96 100644
+--- a/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_rc01_aar.xml
++++ b/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_rc01_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.localbroadcastmanager:localbroadcastmanager:1.0.0-rc01@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5018e4aacf783bcd99661fbdd395dcd0/localbroadcastmanager-1.0.0-rc01/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5018e4aacf783bcd99661fbdd395dcd0/localbroadcastmanager-1.0.0-rc01/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5018e4aacf783bcd99661fbdd395dcd0/localbroadcastmanager-1.0.0-rc01/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_navigation_navigation_common_2_2_2_aar.xml b/.idea/libraries/Gradle__androidx_navigation_navigation_common_2_2_2_aar.xml
+index 84a8ca9..266f19a 100644
+--- a/.idea/libraries/Gradle__androidx_navigation_navigation_common_2_2_2_aar.xml
++++ b/.idea/libraries/Gradle__androidx_navigation_navigation_common_2_2_2_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.navigation:navigation-common:2.2.2@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d00cdceca0c3fbde6e0c7f1cc9484cd0/navigation-common-2.2.2/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d00cdceca0c3fbde6e0c7f1cc9484cd0/navigation-common-2.2.2/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d00cdceca0c3fbde6e0c7f1cc9484cd0/navigation-common-2.2.2/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_navigation_navigation_common_ktx_2_2_2_aar.xml b/.idea/libraries/Gradle__androidx_navigation_navigation_common_ktx_2_2_2_aar.xml
+index 4aa68d6..cd00046 100644
+--- a/.idea/libraries/Gradle__androidx_navigation_navigation_common_ktx_2_2_2_aar.xml
++++ b/.idea/libraries/Gradle__androidx_navigation_navigation_common_ktx_2_2_2_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.navigation:navigation-common-ktx:2.2.2@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2dbcef7867a307b799934ced8eeea21f/navigation-common-ktx-2.2.2/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2dbcef7867a307b799934ced8eeea21f/navigation-common-ktx-2.2.2/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2dbcef7867a307b799934ced8eeea21f/navigation-common-ktx-2.2.2/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_2_2_2_aar.xml b/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_2_2_2_aar.xml
+index e52b7c0..a2dbdc3 100644
+--- a/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_2_2_2_aar.xml
++++ b/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_2_2_2_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.navigation:navigation-fragment:2.2.2@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d935391921a6d0fd167f73248895a5b1/navigation-fragment-2.2.2/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d935391921a6d0fd167f73248895a5b1/navigation-fragment-2.2.2/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d935391921a6d0fd167f73248895a5b1/navigation-fragment-2.2.2/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_ktx_2_2_2_aar.xml b/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_ktx_2_2_2_aar.xml
+index 94fc3b8..f4037db 100644
+--- a/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_ktx_2_2_2_aar.xml
++++ b/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_ktx_2_2_2_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.navigation:navigation-fragment-ktx:2.2.2@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9caf1ba537c609d36d1405dfdc084164/navigation-fragment-ktx-2.2.2/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9caf1ba537c609d36d1405dfdc084164/navigation-fragment-ktx-2.2.2/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9caf1ba537c609d36d1405dfdc084164/navigation-fragment-ktx-2.2.2/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_2_2_2_aar.xml b/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_2_2_2_aar.xml
+index de7178b..d46e0bb 100644
+--- a/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_2_2_2_aar.xml
++++ b/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_2_2_2_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.navigation:navigation-runtime:2.2.2@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b3baedcec8404bc172c5381134126ae5/navigation-runtime-2.2.2/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b3baedcec8404bc172c5381134126ae5/navigation-runtime-2.2.2/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b3baedcec8404bc172c5381134126ae5/navigation-runtime-2.2.2/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_ktx_2_2_2_aar.xml b/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_ktx_2_2_2_aar.xml
+index 7b19893..62d8108 100644
+--- a/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_ktx_2_2_2_aar.xml
++++ b/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_ktx_2_2_2_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.navigation:navigation-runtime-ktx:2.2.2@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/aedd61d13833da9c3d437709453813e8/navigation-runtime-ktx-2.2.2/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/aedd61d13833da9c3d437709453813e8/navigation-runtime-ktx-2.2.2/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/aedd61d13833da9c3d437709453813e8/navigation-runtime-ktx-2.2.2/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_navigation_navigation_ui_2_2_2_aar.xml b/.idea/libraries/Gradle__androidx_navigation_navigation_ui_2_2_2_aar.xml
+index 5f3d654..cf9e7b6 100644
+--- a/.idea/libraries/Gradle__androidx_navigation_navigation_ui_2_2_2_aar.xml
++++ b/.idea/libraries/Gradle__androidx_navigation_navigation_ui_2_2_2_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.navigation:navigation-ui:2.2.2@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b190acf2ae74eed7eace3d4f5b154e2b/navigation-ui-2.2.2/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b190acf2ae74eed7eace3d4f5b154e2b/navigation-ui-2.2.2/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b190acf2ae74eed7eace3d4f5b154e2b/navigation-ui-2.2.2/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_navigation_navigation_ui_ktx_2_2_2_aar.xml b/.idea/libraries/Gradle__androidx_navigation_navigation_ui_ktx_2_2_2_aar.xml
+index e27507a..372e52a 100644
+--- a/.idea/libraries/Gradle__androidx_navigation_navigation_ui_ktx_2_2_2_aar.xml
++++ b/.idea/libraries/Gradle__androidx_navigation_navigation_ui_ktx_2_2_2_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.navigation:navigation-ui-ktx:2.2.2@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cf2e6c29c8c9888fdec3c0f3b6c812b6/navigation-ui-ktx-2.2.2/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cf2e6c29c8c9888fdec3c0f3b6c812b6/navigation-ui-ktx-2.2.2/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cf2e6c29c8c9888fdec3c0f3b6c812b6/navigation-ui-ktx-2.2.2/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_print_print_1_0_0_rc01_aar.xml b/.idea/libraries/Gradle__androidx_print_print_1_0_0_rc01_aar.xml
+index da0a5be..1f1e98e 100644
+--- a/.idea/libraries/Gradle__androidx_print_print_1_0_0_rc01_aar.xml
++++ b/.idea/libraries/Gradle__androidx_print_print_1_0_0_rc01_aar.xml
+@@ -4,6 +4,7 @@
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/50913a35989a5945d28b5f494fb6c0af/print-1.0.0-rc01/annotations.zip!/" />
+     </ANNOTATIONS>
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/50913a35989a5945d28b5f494fb6c0af/print-1.0.0-rc01/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/50913a35989a5945d28b5f494fb6c0af/print-1.0.0-rc01/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/50913a35989a5945d28b5f494fb6c0af/print-1.0.0-rc01/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml b/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml
+index a7cba33..031a63f 100644
+--- a/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml
+@@ -4,6 +4,7 @@
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a84de7f37ff4cf01c9267f5b6c2c3b94/recyclerview-1.1.0/annotations.zip!/" />
+     </ANNOTATIONS>
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a84de7f37ff4cf01c9267f5b6c2c3b94/recyclerview-1.1.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a84de7f37ff4cf01c9267f5b6c2c3b94/recyclerview-1.1.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a84de7f37ff4cf01c9267f5b6c2c3b94/recyclerview-1.1.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_room_room_runtime_2_0_0_aar.xml b/.idea/libraries/Gradle__androidx_room_room_runtime_2_0_0_aar.xml
+index 0b011a5..e68caa7 100644
+--- a/.idea/libraries/Gradle__androidx_room_room_runtime_2_0_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_room_room_runtime_2_0_0_aar.xml
+@@ -4,6 +4,7 @@
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c73e4814b9d636f780f45ed6cc3302d7/room-runtime-2.0.0/annotations.zip!/" />
+     </ANNOTATIONS>
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c73e4814b9d636f780f45ed6cc3302d7/room-runtime-2.0.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c73e4814b9d636f780f45ed6cc3302d7/room-runtime-2.0.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c73e4814b9d636f780f45ed6cc3302d7/room-runtime-2.0.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml b/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml
+index ad7f554..af5fff4 100644
+--- a/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.savedstate:savedstate:1.0.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/040833fe11640f1b8c4733bfce84961f/jetified-savedstate-1.0.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/040833fe11640f1b8c4733bfce84961f/jetified-savedstate-1.0.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/040833fe11640f1b8c4733bfce84961f/jetified-savedstate-1.0.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_sqlite_sqlite_2_0_0_aar.xml b/.idea/libraries/Gradle__androidx_sqlite_sqlite_2_0_0_aar.xml
+index 6a99819..6b86926 100644
+--- a/.idea/libraries/Gradle__androidx_sqlite_sqlite_2_0_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_sqlite_sqlite_2_0_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.sqlite:sqlite:2.0.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c69af7ff32bb13cd6ffb7e980e42f970/sqlite-2.0.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c69af7ff32bb13cd6ffb7e980e42f970/sqlite-2.0.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c69af7ff32bb13cd6ffb7e980e42f970/sqlite-2.0.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_sqlite_sqlite_framework_2_0_0_aar.xml b/.idea/libraries/Gradle__androidx_sqlite_sqlite_framework_2_0_0_aar.xml
+index 0e15036..d02f919 100644
+--- a/.idea/libraries/Gradle__androidx_sqlite_sqlite_framework_2_0_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_sqlite_sqlite_framework_2_0_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.sqlite:sqlite-framework:2.0.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9f0c3eeeabb6b9d7561eb7f910021d62/sqlite-framework-2.0.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9f0c3eeeabb6b9d7561eb7f910021d62/sqlite-framework-2.0.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9f0c3eeeabb6b9d7561eb7f910021d62/sqlite-framework-2.0.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml b/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml
+index f6c9092..1531b06 100644
+--- a/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml
+@@ -4,6 +4,7 @@
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3f83881661345582f7d78514f4490a0c/swiperefreshlayout-1.0.0/annotations.zip!/" />
+     </ANNOTATIONS>
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3f83881661345582f7d78514f4490a0c/swiperefreshlayout-1.0.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3f83881661345582f7d78514f4490a0c/swiperefreshlayout-1.0.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3f83881661345582f7d78514f4490a0c/swiperefreshlayout-1.0.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_test_core_1_2_0_aar.xml b/.idea/libraries/Gradle__androidx_test_core_1_2_0_aar.xml
+index 33425f6..b8faf22 100644
+--- a/.idea/libraries/Gradle__androidx_test_core_1_2_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_test_core_1_2_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.test:core:1.2.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1eaaf04663ca1a5a7b004c766f61634e/jetified-core-1.2.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1eaaf04663ca1a5a7b004c766f61634e/jetified-core-1.2.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1eaaf04663ca1a5a7b004c766f61634e/jetified-core-1.2.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_2_0_aar.xml b/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_2_0_aar.xml
+index 40681be..5eb091d 100644
+--- a/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_2_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_2_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.test.espresso:espresso-core:3.2.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b1bd56c8234a460bced7a00730b11237/espresso-core-3.2.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b1bd56c8234a460bced7a00730b11237/espresso-core-3.2.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b1bd56c8234a460bced7a00730b11237/espresso-core-3.2.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_2_0_aar.xml b/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_2_0_aar.xml
+index d0691c4..b956138 100644
+--- a/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_2_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_2_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.test.espresso:espresso-idling-resource:3.2.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c679db6327ab4d9c31d8586ad5615fc4/espresso-idling-resource-3.2.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c679db6327ab4d9c31d8586ad5615fc4/espresso-idling-resource-3.2.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c679db6327ab4d9c31d8586ad5615fc4/espresso-idling-resource-3.2.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_1_aar.xml b/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_1_aar.xml
+index fe9ee83..9a7a26f 100644
+--- a/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_1_aar.xml
++++ b/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_1_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.test.ext:junit:1.1.1@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5758b39097b60ee3d9d9f4988fe9f39a/jetified-junit-1.1.1/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5758b39097b60ee3d9d9f4988fe9f39a/jetified-junit-1.1.1/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5758b39097b60ee3d9d9f4988fe9f39a/jetified-junit-1.1.1/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_test_monitor_1_2_0_aar.xml b/.idea/libraries/Gradle__androidx_test_monitor_1_2_0_aar.xml
+index 1bfb755..f206031 100644
+--- a/.idea/libraries/Gradle__androidx_test_monitor_1_2_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_test_monitor_1_2_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.test:monitor:1.2.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bcc2a203f9e8a33561b92b7f440d87e7/monitor-1.2.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bcc2a203f9e8a33561b92b7f440d87e7/monitor-1.2.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bcc2a203f9e8a33561b92b7f440d87e7/monitor-1.2.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_test_runner_1_2_0_aar.xml b/.idea/libraries/Gradle__androidx_test_runner_1_2_0_aar.xml
+index 184384d..0c4f863 100644
+--- a/.idea/libraries/Gradle__androidx_test_runner_1_2_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_test_runner_1_2_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.test:runner:1.2.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/88efd801c7e3d60a15d9fbaac27ca0de/runner-1.2.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/88efd801c7e3d60a15d9fbaac27ca0de/runner-1.2.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/88efd801c7e3d60a15d9fbaac27ca0de/runner-1.2.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml b/.idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml
+index a835782..bd54c44 100644
+--- a/.idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml
+@@ -4,6 +4,7 @@
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1fc08d1fb701a9d1159038109e40ebf8/transition-1.2.0/annotations.zip!/" />
+     </ANNOTATIONS>
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1fc08d1fb701a9d1159038109e40ebf8/transition-1.2.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1fc08d1fb701a9d1159038109e40ebf8/transition-1.2.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1fc08d1fb701a9d1159038109e40ebf8/transition-1.2.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml b/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml
+index 9511cb5..d477537 100644
+--- a/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.vectordrawable:vectordrawable:1.1.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e25e680e926d459eb2c19be324b11009/vectordrawable-1.1.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e25e680e926d459eb2c19be324b11009/vectordrawable-1.1.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e25e680e926d459eb2c19be324b11009/vectordrawable-1.1.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml b/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml
+index 1bcde4f..e4aaeba 100644
+--- a/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.vectordrawable:vectordrawable-animated:1.1.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/55f7ae6cd9f600a5fd4360cfb1aa720c/vectordrawable-animated-1.1.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/55f7ae6cd9f600a5fd4360cfb1aa720c/vectordrawable-animated-1.1.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/55f7ae6cd9f600a5fd4360cfb1aa720c/vectordrawable-animated-1.1.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml b/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml
+index 5b076d8..7110c4f 100644
+--- a/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.versionedparcelable:versionedparcelable:1.1.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/78a913978e37b54448a1dc2429e82473/versionedparcelable-1.1.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/78a913978e37b54448a1dc2429e82473/versionedparcelable-1.1.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/78a913978e37b54448a1dc2429e82473/versionedparcelable-1.1.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml b/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml
+index 1c76286..087f9ba 100644
+--- a/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml
+@@ -4,6 +4,7 @@
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9dd6d4381bc362d7587bb72c651fb209/jetified-viewpager2-1.0.0/annotations.zip!/" />
+     </ANNOTATIONS>
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9dd6d4381bc362d7587bb72c651fb209/jetified-viewpager2-1.0.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9dd6d4381bc362d7587bb72c651fb209/jetified-viewpager2-1.0.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9dd6d4381bc362d7587bb72c651fb209/jetified-viewpager2-1.0.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml b/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml
+index 4d08685..a55e6e4 100644
+--- a/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml
++++ b/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: androidx.viewpager:viewpager:1.0.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5f2de48748d4e50492a35211ea4efefc/viewpager-1.0.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5f2de48748d4e50492a35211ea4efefc/viewpager-1.0.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5f2de48748d4e50492a35211ea4efefc/viewpager-1.0.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__com_amitshekhar_android_debug_db_1_0_6_aar.xml b/.idea/libraries/Gradle__com_amitshekhar_android_debug_db_1_0_6_aar.xml
+index 3c1cf3a..cacc5c1 100644
+--- a/.idea/libraries/Gradle__com_amitshekhar_android_debug_db_1_0_6_aar.xml
++++ b/.idea/libraries/Gradle__com_amitshekhar_android_debug_db_1_0_6_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: com.amitshekhar.android:debug-db:1.0.6@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/be24334d76c0aef0e7698668bea63570/jetified-debug-db-1.0.6/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/be24334d76c0aef0e7698668bea63570/jetified-debug-db-1.0.6/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/be24334d76c0aef0e7698668bea63570/jetified-debug-db-1.0.6/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__com_amitshekhar_android_debug_db_base_1_0_6_aar.xml b/.idea/libraries/Gradle__com_amitshekhar_android_debug_db_base_1_0_6_aar.xml
+index bb93980..28d5d0e 100644
+--- a/.idea/libraries/Gradle__com_amitshekhar_android_debug_db_base_1_0_6_aar.xml
++++ b/.idea/libraries/Gradle__com_amitshekhar_android_debug_db_base_1_0_6_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: com.amitshekhar.android:debug-db-base:1.0.6@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/06ce4d33ff9625952447443c30fe76d5/jetified-debug-db-base-1.0.6/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/06ce4d33ff9625952447443c30fe76d5/jetified-debug-db-base-1.0.6/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/06ce4d33ff9625952447443c30fe76d5/jetified-debug-db-base-1.0.6/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__com_github_AppIntro_AppIntro_6_0_0_aar.xml b/.idea/libraries/Gradle__com_github_AppIntro_AppIntro_6_0_0_aar.xml
+index 4a7d1b9..89b9f0c 100644
+--- a/.idea/libraries/Gradle__com_github_AppIntro_AppIntro_6_0_0_aar.xml
++++ b/.idea/libraries/Gradle__com_github_AppIntro_AppIntro_6_0_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: com.github.AppIntro:AppIntro:6.0.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/99cd2e05f308e6eef721cfcf5d419c2a/jetified-AppIntro-6.0.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/99cd2e05f308e6eef721cfcf5d419c2a/jetified-AppIntro-6.0.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/99cd2e05f308e6eef721cfcf5d419c2a/jetified-AppIntro-6.0.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__com_google_android_material_material_1_1_0_aar.xml b/.idea/libraries/Gradle__com_google_android_material_material_1_1_0_aar.xml
+index 0562ec8..fcd8f5a 100644
+--- a/.idea/libraries/Gradle__com_google_android_material_material_1_1_0_aar.xml
++++ b/.idea/libraries/Gradle__com_google_android_material_material_1_1_0_aar.xml
+@@ -4,6 +4,7 @@
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a28e3071b49cd303c87ab88f035299ad/material-1.1.0/annotations.zip!/" />
+     </ANNOTATIONS>
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a28e3071b49cd303c87ab88f035299ad/material-1.1.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a28e3071b49cd303c87ab88f035299ad/material-1.1.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a28e3071b49cd303c87ab88f035299ad/material-1.1.0/res" />
+     </CLASSES>
+diff --git a/.idea/libraries/Gradle__de_hdodenhof_circleimageview_3_1_0_aar.xml b/.idea/libraries/Gradle__de_hdodenhof_circleimageview_3_1_0_aar.xml
+index 047e0f8..2a83c6a 100644
+--- a/.idea/libraries/Gradle__de_hdodenhof_circleimageview_3_1_0_aar.xml
++++ b/.idea/libraries/Gradle__de_hdodenhof_circleimageview_3_1_0_aar.xml
+@@ -1,6 +1,7 @@
+ <component name="libraryTable">
+   <library name="Gradle: de.hdodenhof:circleimageview:3.1.0@aar">
+     <CLASSES>
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8896a3d5fa4b6dea4e655d799963e7dd/jetified-circleimageview-3.1.0/AndroidManifest.xml" />
+       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8896a3d5fa4b6dea4e655d799963e7dd/jetified-circleimageview-3.1.0/jars/classes.jar!/" />
+       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8896a3d5fa4b6dea4e655d799963e7dd/jetified-circleimageview-3.1.0/res" />
+     </CLASSES>
