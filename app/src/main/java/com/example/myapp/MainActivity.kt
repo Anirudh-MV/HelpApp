@@ -121,6 +121,7 @@ class MainActivity : AppCompatActivity() {
         userIdUserNameHashMap.put(NETWORK_USERID, NETWORK_USERNAME)
         Log.d("USERID-", NETWORK_USERID)
         Log.d("USERNAME-", NETWORK_USERNAME)
+        SERVICE_NAME = NETWORK_USERID
 
         val navView: BottomNavigationView = findViewById(R.id.nav_view)
         val navController = findNavController(R.id.nav_host_fragment)
@@ -726,13 +727,16 @@ class MainActivity : AppCompatActivity() {
                         override fun onServiceResolved(serviceInfo: NsdServiceInfo?) {
                             Log.d("DiscoveryListener", "host is null, servicename = ${serviceInfo?.serviceName}, servicetype = ${serviceInfo?.serviceType}, port = ${serviceInfo?.port}")
                             try{
-                                if(serviceInfo!!.host != lastinetaddress) {
-                                    Log.d("Resolve", "about to create client class object alhamdulilah")
+                                if(serviceInfo!!.serviceName == NETWORK_USERID){
+                                    Log.d("Resolve", "not connecting, same device $NETWORK_USERID ${serviceInfo!!.serviceName}")
+                                    lastinetaddress = serviceInfo!!.host
+                                } else if(serviceInfo!!.host != lastinetaddress) {
+                                    Log.d("Resolve", "about to create client class object alhamdulilah $NETWORK_USERID ${serviceInfo!!.serviceName}")
                                     clientClass = ClientClass(serviceInfo!!.host)
                                     clientClass!!.start()
                                     Log.d("Resolve", "created client object and started thread mashallah")
                                 } else{
-                                    Log.d("Resolve", "not connecting, already connected through WiFi Direct")
+                                    Log.d("Resolve", "not connecting, already connected through WiFi Direct $NETWORK_USERID ${serviceInfo!!.serviceName}")
                                 }
                             }
                             catch (e:Exception){
@@ -883,7 +887,7 @@ class MainActivity : AppCompatActivity() {
                     var nsdServiceInfo = NsdServiceInfo()
                     nsdServiceInfo.serviceType = SERVICE_TYPE
                     SERVICE_NAME = serverClass?.socket?.inetAddress.toString()
-                    nsdServiceInfo.serviceName = SERVICE_NAME
+                    nsdServiceInfo.serviceName = NETWORK_USERID
                     nsdServiceInfo.port = 2323
                     nsdManager.registerService(nsdServiceInfo, NsdManager.PROTOCOL_DNS_SD, mRegistrationListener)
                 }
