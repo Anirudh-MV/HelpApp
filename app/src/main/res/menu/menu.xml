@@ -25,7 +25,7 @@
         />
     <item
         android:id="@+id/connectToHotspot"
-        android:title="Connect without WiFi Direct"
+        android:title="Connect Manually"
         app:showAsAction="never"
         android:icon="@drawable/ic_send_button"
         android:contentDescription="connect to available hotspot"

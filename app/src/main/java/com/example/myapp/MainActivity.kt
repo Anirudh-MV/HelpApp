@@ -11,6 +11,7 @@ import android.net.nsd.NsdManager.*
 import android.net.nsd.NsdServiceInfo
 import android.net.wifi.ScanResult
 import android.net.wifi.WifiManager
+import android.net.wifi.p2p.WifiP2pConfig
 import android.net.wifi.p2p.WifiP2pDevice
 import android.net.wifi.p2p.WifiP2pManager
 import android.net.wifi.p2p.WifiP2pManager.ConnectionInfoListener
@@ -120,6 +121,7 @@ class MainActivity : AppCompatActivity() {
         userIdUserNameHashMap.put(NETWORK_USERID, NETWORK_USERNAME)
         Log.d("USERID-", NETWORK_USERID)
         Log.d("USERNAME-", NETWORK_USERNAME)
+        SERVICE_NAME = NETWORK_USERID
 
         val navView: BottomNavigationView = findViewById(R.id.nav_view)
         val navController = findNavController(R.id.nav_host_fragment)
@@ -400,7 +402,7 @@ class MainActivity : AppCompatActivity() {
             startActivityForResult(Intent(this, HelpScreen::class.java), 6969)
         }
         if (id == R.id.connectToHotspot){       // single button to connect to a hotspot
-            showAlertDialogForUsername()
+            /*showAlertDialogForUsername()
             wifiScannedAtleastOnce = false
             scanWifi()
             mManager!!.discoverPeers(mChannel, object : WifiP2pManager.ActionListener {
@@ -412,7 +414,70 @@ class MainActivity : AppCompatActivity() {
                     Log.d("Discover Peers", "Nahi shuru ho payi discovery")
                 }
             })
-            HotspotConnection(this).start()
+            HotspotConnection(this).start()*/
+            tempShowList = true
+            scanWifi()  //to scan WiFi
+            mManager!!.discoverPeers(mChannel, object : WifiP2pManager.ActionListener {
+                override fun onSuccess() {
+                    Log.d("Discover Peers", "Discover karega ab")
+                }
+
+                override fun onFailure(reason: Int) {
+                    Log.d("Discover Peers", "Nahi shuru ho payi discovery")
+                }
+            })
+            showAlertDialogForUsername()
+
+//            var createGroupOrConnect = CreateGroupOrConnect(mManager, mChannel, applicationContext)
+//            createGroupOrConnect.start()
+//            nsdManager = getSystemService(Context.NSD_SERVICE) as NsdManager
+//            if(!nsdAlreadyDiscovering) {
+//                nsdManager.discoverServices(
+//                    MainActivity.SERVICE_TYPE,
+//                    NsdManager.PROTOCOL_DNS_SD,
+//                    mDiscoveryListener
+//                )
+//                nsdAlreadyDiscovering = true
+//            }
+            //                val dialogBuilder = AlertDialog.Builder(this)
+//                dialogBuilder.setSingleChoiceItems(deviceNameArray, 0) { d, n ->
+//                    val device = deviceArray[n]!!
+////                String client_mac_fixed = new String(device.deviceAddress).replace("99", "19");
+//////                String clientIP = Utils.getIPFromMac(client_mac_fixed);
+//                    //                String client_mac_fixed = new String(device.deviceAddress).replace("99", "19");
+//////                String clientIP = Utils.getIPFromMac(client_mac_fixed);
+//                    val config = WifiP2pConfig()
+//                    config.deviceAddress = device.deviceAddress
+//
+//                    mManager!!.connect(mChannel, config, object : WifiP2pManager.ActionListener {
+//                        override fun onSuccess() {
+//                            Toast.makeText(
+//                                applicationContext,
+//                                "connected to " + device.deviceName,
+//                                Toast.LENGTH_SHORT
+//                            ).show()
+//                        }
+//
+//                        override fun onFailure(reason: Int) {
+//                            Toast.makeText(
+//                                applicationContext,
+//                                "Not connected",
+//                                Toast.LENGTH_SHORT
+//                            ).show()
+//                        }
+//                    })
+//                }
+//                dialogBuilder.setNegativeButton("Cancel", null)
+//                dialogBuilder.setTitle("Which one?")
+//                dialogBuilder.show()
+//                var mseg = "\nPeers"
+//                for (dev in peerList.device List) {
+//                    mseg += """
+//
+//                        ${dev.deviceAddress}
+//                        """.trimIndent()
+//                }
+//                Log.d("onPeersAvailable", mseg)
         }
         if (id == R.id.showNetworkInformation) { // do something here
             val alert = AlertDialog.Builder(this)
@@ -662,13 +727,16 @@ class MainActivity : AppCompatActivity() {
                         override fun onServiceResolved(serviceInfo: NsdServiceInfo?) {
                             Log.d("DiscoveryListener", "host is null, servicename = ${serviceInfo?.serviceName}, servicetype = ${serviceInfo?.serviceType}, port = ${serviceInfo?.port}")
                             try{
-                                if(serviceInfo!!.host != lastinetaddress) {
-                                    Log.d("Resolve", "about to create client class object alhamdulilah")
+                                if(serviceInfo!!.serviceName == NETWORK_USERID){
+                                    Log.d("Resolve", "not connecting, same device $NETWORK_USERID ${serviceInfo!!.serviceName}")
+                                    lastinetaddress = serviceInfo!!.host
+                                } else if(serviceInfo!!.host != lastinetaddress) {
+                                    Log.d("Resolve", "about to create client class object alhamdulilah $NETWORK_USERID ${serviceInfo!!.serviceName}")
                                     clientClass = ClientClass(serviceInfo!!.host)
                                     clientClass!!.start()
                                     Log.d("Resolve", "created client object and started thread mashallah")
                                 } else{
-                                    Log.d("Resolve", "not connecting, already connected through WiFi Direct")
+                                    Log.d("Resolve", "not connecting, already connected through WiFi Direct $NETWORK_USERID ${serviceInfo!!.serviceName}")
                                 }
                             }
                             catch (e:Exception){
@@ -742,51 +810,55 @@ class MainActivity : AppCompatActivity() {
                 updateConnectionStatus()
 //                }
 
-//                val dialogBuilder = AlertDialog.Builder(this)
-//                dialogBuilder.setSingleChoiceItems(deviceNameArray, 0) { d, n ->
-//                    val device = deviceArray[n]!!
-////                String client_mac_fixed = new String(device.deviceAddress).replace("99", "19");
-//////                String clientIP = Utils.getIPFromMac(client_mac_fixed);
-//                    //                String client_mac_fixed = new String(device.deviceAddress).replace("99", "19");
-//////                String clientIP = Utils.getIPFromMac(client_mac_fixed);
-//                    val config = WifiP2pConfig()
-//                    config.deviceAddress = device.deviceAddress
-//
-//                    mManager!!.connect(mChannel, config, object : WifiP2pManager.ActionListener {
-//                        override fun onSuccess() {
-//                            Toast.makeText(
-//                                applicationContext,
-//                                "connected to " + device.deviceName,
-//                                Toast.LENGTH_SHORT
-//                            ).show()
-//                        }
-//
-//                        override fun onFailure(reason: Int) {
-//                            Toast.makeText(
-//                                applicationContext,
-//                                "Not connected",
-//                                Toast.LENGTH_SHORT
-//                            ).show()
-//                        }
-//                    })
-//                }
-//                dialogBuilder.setNegativeButton("Cancel", null)
-//                dialogBuilder.setTitle("Which one?")
-//                dialogBuilder.show()
-//                var mseg = "\nPeers"
+                if(tempShowList) {
+                    tempShowList = false
+                    val dialogBuilder = AlertDialog.Builder(this)
+                    dialogBuilder.setSingleChoiceItems(deviceNameArray, 0) { d, n ->
+                    val device = deviceArray[n]!!
+//                String client_mac_fixed = new String(device.deviceAddress).replace("99", "19");
+////                String clientIP = Utils.getIPFromMac(client_mac_fixed);
+                    //                String client_mac_fixed = new String(device.deviceAddress).replace("99", "19");
+////                String clientIP = Utils.getIPFromMac(client_mac_fixed);
+                    val config = WifiP2pConfig()
+                    config.deviceAddress = device.deviceAddress
+
+                    mManager!!.connect(mChannel, config, object : WifiP2pManager.ActionListener {
+                        override fun onSuccess() {
+                            Toast.makeText(
+                                applicationContext,
+                                "connected to " + device.deviceName,
+                                Toast.LENGTH_SHORT
+                            ).show()
+                        }
+
+                        override fun onFailure(reason: Int) {
+                            Toast.makeText(
+                                applicationContext,
+                                "Not connected",
+                                Toast.LENGTH_SHORT
+                            ).show()
+                        }
+                    })
+                }
+                dialogBuilder.setNegativeButton("Cancel", null)
+                dialogBuilder.setTitle("Which one?")
+                dialogBuilder.show()
+                var mseg = "\nPeers"
 //                for (dev in peerList.device List) {
 //                    mseg += """
 //
 //                        ${dev.deviceAddress}
 //                        """.trimIndent()
 //                }
-//                Log.d("onPeersAvailable", mseg)
+                Log.d("onPeersAvailable", mseg)
+                }
             }
             if (peers.size == 0) {
                 Toast.makeText(applicationContext, "No device Found", Toast.LENGTH_SHORT)
                     .show()
                 return@PeerListListener
             }
+
         }
 
     var connectionInfoListener =
@@ -815,7 +887,7 @@ class MainActivity : AppCompatActivity() {
                     var nsdServiceInfo = NsdServiceInfo()
                     nsdServiceInfo.serviceType = SERVICE_TYPE
                     SERVICE_NAME = serverClass?.socket?.inetAddress.toString()
-                    nsdServiceInfo.serviceName = SERVICE_NAME
+                    nsdServiceInfo.serviceName = NETWORK_USERID
                     nsdServiceInfo.port = 2323
                     nsdManager.registerService(nsdServiceInfo, NsdManager.PROTOCOL_DNS_SD, mRegistrationListener)
                 }
@@ -891,6 +963,8 @@ class MainActivity : AppCompatActivity() {
 
         var MAIN_EXECUTOR: Executor? = null
         var USERLIST_EXECUTOR: ScheduledExecutorService? = null
+
+        var tempShowList = false
 
         var lastinetaddress:InetAddress ?= null
 
