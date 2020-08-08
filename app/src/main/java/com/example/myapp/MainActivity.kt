@@ -417,7 +417,7 @@ class MainActivity : AppCompatActivity() {
             HotspotConnection(this).start()*/
 
             nsdManager = getSystemService(Context.NSD_SERVICE) as NsdManager
-            if(!nsdAlreadyDiscovering) {
+            if(!nsdAlreadyDiscovering && !groupCreated) {
                 nsdManager.discoverServices(
                     SERVICE_TYPE,
                     NsdManager.PROTOCOL_DNS_SD,
