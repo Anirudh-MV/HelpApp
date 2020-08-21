@@ -321,7 +321,7 @@ class MainActivity : AppCompatActivity() {
             nsdManager = getSystemService(Context.NSD_SERVICE) as NsdManager
             if(!nsdAlreadyDiscovering) {
                 nsdManager.discoverServices(
-                    MainActivity.SERVICE_TYPE,
+                    SERVICE_TYPE,
                     NsdManager.PROTOCOL_DNS_SD,
                     mDiscoveryListener
                 )
@@ -415,8 +415,20 @@ class MainActivity : AppCompatActivity() {
                 }
             })
             HotspotConnection(this).start()*/
+
+            nsdManager = getSystemService(Context.NSD_SERVICE) as NsdManager
+            if(!nsdAlreadyDiscovering && !groupCreated) {
+                nsdManager.discoverServices(
+                    SERVICE_TYPE,
+                    NsdManager.PROTOCOL_DNS_SD,
+                    mDiscoveryListener
+                )
+                nsdAlreadyDiscovering = true
+            }
+
             tempShowList = true
             scanWifi()  //to scan WiFi
+
             mManager!!.discoverPeers(mChannel, object : WifiP2pManager.ActionListener {
                 override fun onSuccess() {
                     Log.d("Discover Peers", "Discover karega ab")
@@ -718,7 +730,7 @@ class MainActivity : AppCompatActivity() {
                 )
             )
             try {
-                if(serviceInfo.serviceType.contains(MainActivity.SERVICE_TYPE))
+                if(serviceInfo.serviceType.contains(SERVICE_TYPE))
                     nsdManager.resolveService(serviceInfo, object : ResolveListener{
                         override fun onResolveFailed(serviceInfo: NsdServiceInfo?, errorCode: Int) {
                             //do nothing for now
