@@ -3,6 +3,9 @@ HelpApp is our effort towards creating an application which people can use to co
 It is a android chatting app which creates a mesh network of mobiles. Mobiles can interact with each other without connecting  to the internet.
 Help was created using Kotlin as its base language with a little Java for the database code.
 
+## AS SEEN IN KSCST
+And also our final year project for BE in CS&E under VTU, Belagavi
+
 ## Screenshots<br>
 ![First Screen](screenshots/1.jpeg "Starting off")![One-on-One Messaging](screenshots/1-5.jpeg "Direct Messaging")
 ![Group Chat](screenshots/2.jpeg "Group Messaging")
