@@ -9,10 +9,7 @@ And also our final year project for BE in CS&E under VTU, Belagavi
 ## Screenshots<br>
 ![First Screen](screenshots/1.jpeg "Starting off")![One-on-One Messaging](screenshots/1-5.jpeg "Direct Messaging")
 ![Group Chat](screenshots/2.jpeg "Group Messaging")
-![Username](screenshots/6_1.jpeg "Set up your username")![Username](screenshots/6_2.jpeg "Let people easily identify you")
 ![Requirements](screenshots/5.jpeg "What do you need help with?")
-![Ledger List](screenshots/3.jpeg "Ledger")![Ledger Expanded](screenshots/4.jpeg "Look for people in need")
-
 
 
 ## Build Instructions
